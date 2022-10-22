@@ -1,0 +1,18 @@
+/* CONTRUINDO UM OVO
+
+  // constroi elipse com centro em (15,15,15) de raios rx=10, ry=10 e xz=15
+  t.putEllipsoid(15, 15, 15, 10, 15, 10);
+  // deleta voxel na area interna da elipse com centro em (15,15,15) de raios rx=5, ry=5 e xz=10
+  t.cutEllipsoid(15, 15, 15, 8, 10, 8);
+  // recorta parte superior do ovo para vizualizar seu interior
+  t.cutBox(4, 25, 25, 31, 4, 25);
+
+  // CONTRUINDO UM JARRO
+
+  //constroi uma cubo de 40x70 para x, y e z
+  t.putBox(40,70, 40,70,40,70); 
+  //deleta os voxel interior da caixa em forma de circulo, com centro no ponto (55,55,55) e raio 10
+  t.cutSphere(55, 55, 55, 10);
+  //corta parte superior do jarro para tomar forma
+  t.cutBox(40,70, 60,70,40,70);
+*/

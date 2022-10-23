@@ -23,11 +23,9 @@ int main() {
 
   // corta area interna da espera criada em (65,65,65) com raio 10
   t.cutSphere(65, 65, 65, 8);
-  // cria caixa que vai de 65 ate 75 para x, de 0 a 40 para y e de 45 a 55 para
-  // z
+  // cria caixa que vai de 65 ate 75 para x, de 0 a 40 para y e de 45 a 55 para z
   t.putBox(65, 75, 0, 40, 45, 55);
-  // cria caixa que vai de 45 a 55 para x, de 0 a 40 para y e de 65 ate 75  para
-  // z
+  // cria caixa que vai de 45 a 55 para x, de 0 a 40 para y e de 65 ate 75  para z
   t.putBox(45, 55, 0, 40, 65, 75);
   // cria caixa que vai de 45 a 55 para x, de 0 a 40 para y e de 25 a 35 para z
   t.putBox(45, 55, 0, 40, 25, 35);
